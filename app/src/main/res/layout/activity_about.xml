@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_height="match_parent"
+            android:text="Android Developer: 14.xmf\nMemory Game\nThe memory game is a common children's game played with a set of cards. The cards have a pictures on one side and each picture appears on two (or sometimes four) cards. The game starts with all the cards face down and players take turns to turn over two cards. If the two cards have the same picture, then they keep the cards, otherwise they turn the cards face down again. The winner is the person with the most cards when all the cards have been taken.
+
+PJ Masks memory game.JPG
+We have several different versions of the game (the difference being the pictures), and I have played with many, many times. When playing with a two year old, it sometimes feels like they are just turning cards over at random. Which made me wonder:When cards are picked at random the player effectively has no memory of what they have turned over previously.
+
+To get a feel for how long games take, let's start with the simplest game and work our way up. With one pair of card (n=1), the game is trivial: both cards get turned over on the first turn, they match and the game is over. So with n=1, the expected number of turns, E(t)=1.
+
+"/>
+
+    </ScrollView>
+
+</LinearLayout>
